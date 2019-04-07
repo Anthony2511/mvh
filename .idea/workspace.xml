@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b80ae816-0223-4bce-8d51-cb2d2d0d88cc" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/mvh/single-work.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/mvh/template-about.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/mvh/template-contact.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/mvh/template-work.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/mvh/navigation.php" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/mvh/navigation.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -41,8 +37,8 @@
       <file leaf-file-name="template-about.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wordpress/wp-content/themes/mvh/template-about.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" column="10" lean-forward="true" selection-end-line="15" selection-end-column="31" />
+            <state relative-caret-position="23">
+              <caret line="1" column="2" lean-forward="true" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
               <folding>
                 <element signature="e#6#41#0#PHP" expanded="true" />
               </folding>
@@ -50,23 +46,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="template-work.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wordpress/wp-content/themes/mvh/template-work.php">
+      <file leaf-file-name="navigation.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wordpress/wp-content/themes/mvh/navigation.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="322">
-              <caret line="14" lean-forward="true" selection-end-line="15" selection-end-column="31" />
-              <folding>
-                <element signature="e#6#37#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="single-work.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/wordpress/wp-content/themes/mvh/single-work.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" column="36" lean-forward="true" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+              <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -102,7 +86,6 @@
         <option value="$PROJECT_DIR$/wordpress/wp-content/themes/mvh/head.php" />
         <option value="$PROJECT_DIR$/wordpress/wp-content/themes/mvh/header-home.php" />
         <option value="$PROJECT_DIR$/wordpress/wp-content/themes/mvh/index.php" />
-        <option value="$PROJECT_DIR$/wordpress/wp-content/themes/mvh/navigation.php" />
         <option value="$PROJECT_DIR$/wordpress/wp-content/themes/mvh/style.css" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/wordpress/wp-content/themes/mvh/css/main.css" />
@@ -114,6 +97,7 @@
         <option value="$PROJECT_DIR$/wordpress/wp-content/themes/mvh/template-contact.php" />
         <option value="$PROJECT_DIR$/wordpress/wp-content/themes/mvh/template-work.php" />
         <option value="$PROJECT_DIR$/wordpress/wp-content/themes/mvh/single-work.php" />
+        <option value="$PROJECT_DIR$/wordpress/wp-content/themes/mvh/navigation.php" />
       </list>
     </option>
   </component>
@@ -235,12 +219,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1554627865009</updated>
-      <workItem from="1554627866742" duration="4686000" />
+      <workItem from="1554627866742" duration="5004000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4686000" />
+    <option name="totallyTimeSpent" value="5004000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -360,13 +344,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wordpress/wp-content/themes/mvh/navigation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wordpress/wp-content/themes/mvh/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
@@ -455,13 +432,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wordpress/wp-content/themes/mvh/template-about.php">
+    <entry file="file://$PROJECT_DIR$/../ecole-vivante/wordpress/wp-content/themes/cev/single-news.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
-          <caret line="8" column="10" lean-forward="true" selection-end-line="15" selection-end-column="31" />
-          <folding>
-            <element signature="e#6#41#0#PHP" expanded="true" />
-          </folding>
+          <caret line="8" column="72" lean-forward="true" selection-start-line="8" selection-start-column="72" selection-end-line="8" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wordpress/wp-content/themes/mvh/single-work.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="36" lean-forward="true" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -475,17 +456,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ecole-vivante/wordpress/wp-content/themes/cev/single-news.php">
+    <entry file="file://$PROJECT_DIR$/source/images/logo-mvh.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wordpress/wp-content/themes/mvh/template-about.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="72" lean-forward="true" selection-start-line="8" selection-start-column="72" selection-end-line="8" selection-end-column="72" />
+        <state relative-caret-position="23">
+          <caret line="1" column="2" lean-forward="true" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
+          <folding>
+            <element signature="e#6#41#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wordpress/wp-content/themes/mvh/single-work.php">
+    <entry file="file://$PROJECT_DIR$/wordpress/wp-content/themes/mvh/navigation.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="36" lean-forward="true" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+        <state relative-caret-position="322">
+          <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
         </state>
       </provider>
     </entry>

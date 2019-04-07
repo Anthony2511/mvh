@@ -10,4 +10,14 @@
             </div>
         </div>
     </div>
+    <div class="nav__bloc">
+        <ul class="nav__menu <?php if(!is_front_page () && !is_home ()): ?> menu-page<?php else: ?><?php endif; ?>">
+            <?php global $post; $thePostID = $post->ID; ?>
+            <?php foreach (b_get_menu_items('main-nav') as $navItem): ?>
+                <li class="nav__item">
+                    <a class="nav__link" href="<?= $navItem->url;?>" title="Vers la page <?php echo $navItem->label;?>"><span class="nav__span <?php echo $thePostID == $navItem->id ? "nav__span--active" : "" ;?>"><?php echo $navItem->label;?></span></a>
+                </li>
+            <?php endforeach; ?>
+        </ul>
+    </div>
 </nav>

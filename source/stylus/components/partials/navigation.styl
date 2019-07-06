@@ -1,0 +1,25 @@
+.nav
+  position absolute
+  top s(50)
+  left 0
+  right 0
+  bottom 0
+  z-index 2
+  max-width s(1240)
+  margin 0 auto
+  &__bloc
+    display flex
+    flex-flow row nowrap
+    justify-content space-between
+    align-items center
+  &__wrapper
+    position relative
+  &__item
+    display: inline-block
+    padding s(15) s(25)
+    &:last-child
+      padding-right 0
+  &__link
+    color $cWhite
+    font-size s(18)
+    line-height s(32,18)

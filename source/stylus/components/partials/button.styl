@@ -1,0 +1,16 @@
+.button
+  font-size s(18)
+  padding s(15,18) s(30,18)
+  border-radius 10px
+  display flex
+  cursor pointer
+  &--contact
+      &:before
+        icon('envelope-contact')
+        color $cWhite
+        margin-left s(10,18)
+  &--red
+    background-color $cRedLight
+    color $cWhite
+  &--white
+    background-color $cWhite

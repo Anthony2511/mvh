@@ -187,8 +187,8 @@ img
     font-weight: normal;
     font-style: normal;
 
-    src: url('../fonts/icomoon/icomoon.eot?o2so8g');
-    src: url('../fonts/icomoon/icomoon.eot?o2so8g#iefix') format('embedded-opentype'), url('../fonts/icomoon/icomoon.ttf?o2so8g') format('truetype'), url('../fonts/icomoon/icomoon.woff?o2so8g') format('woff'), url('../fonts/icomoon/icomoon.svg?o2so8g#icomoon') format('svg');
+    src: url('../fonts/icomoon/icomoon.eot?e9qbfi');
+    src: url('../fonts/icomoon/icomoon.eot?e9qbfi#iefix') format('embedded-opentype'), url('../fonts/icomoon/icomoon.ttf?e9qbfi') format('truetype'), url('../fonts/icomoon/icomoon.woff?e9qbfi') format('woff'), url('../fonts/icomoon/icomoon.svg?e9qbfi#icomoon') format('svg');
 }
 @font-face
 {
@@ -269,6 +269,194 @@ img
     font-style: normal;
 
     src: url('../fonts/opensans/opensans-extrabold-webfont.woff2') format('woff2'), url('../fonts/opensans/opensans-extrabold-webfont.woff') format('woff');
+}
+.nav
+{
+    position: absolute;
+    z-index: 2;
+    top: 3.125em;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    max-width: 77.5em;
+    margin: 0 auto;
+}
+.nav__bloc
+{
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display:         flex;
+
+    -webkit-flex-flow: row nowrap;
+        -ms-flex-flow: row nowrap;
+            flex-flow: row nowrap;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+            align-items: center;
+}
+.nav__wrapper
+{
+    position: relative;
+}
+.nav__item
+{
+    display: inline-block;
+
+    padding: .9375em 1.5625em;
+}
+.nav__item:last-child
+{
+    padding-right: 0;
+}
+.nav__link
+{
+    font-size: 1.125em;
+    line-height: 1.777777777777778em;
+
+    color: #fff;
+}
+.title
+{
+    font-family: 'montserrat';
+    font-weight: 700;
+
+    letter-spacing: 1.14px;
+
+    color: #fff;
+}
+.title--50
+{
+    font-size: 3.125em;
+
+    margin-bottom: .6em;
+}
+.header
+{
+    position: relative;
+
+    height: 100vh;
+
+    background: url('../images/background-header.jpg') no-repeat top center/cover;
+    background-position: 80% 50%;
+}
+.header:before
+{
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    content: '';
+
+    opacity: .8;
+    background-image: linear-gradient(to bottom, #686566, #565253, #444041, #332f30, #231f20);
+}
+.header-home
+{
+    position: absolute;
+    z-index: 15;
+    top: 50%;
+    right: 0;
+    left: 0;
+
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display:         flex;
+            flex-direction: column;
+
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+            align-items: center;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+            align-content: center;
+}
+.header-home__wrapper
+{
+    position: relative;
+
+    height: 100vh;
+}
+.header-home__text
+{
+    width: 60%;
+
+    text-align: center;
+}
+.button
+{
+    font-size: 1.125em;
+
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display:         flex;
+
+    padding: .833333333333333em 1.666666666666667em;
+
+    cursor: pointer;
+
+    border-radius: 10px;
+}
+.button--contact:before
+{
+    font-family: 'icomoon';
+    font-weight: normal;
+    font-style: normal;
+    font-variant: normal;
+    line-height: 1;
+
+    margin-left: .555555555555556em;
+
+    content: '\e901';
+    text-transform: none;
+
+    color: #fff;
+
+    speak: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.button--red
+{
+    color: #fff;
+    background-color: #ad1f1d;
+}
+.button--white
+{
+    background-color: #fff;
+}
+.text
+{
+    font-family: 'opensans';
+    font-weight: 300;
+
+    color: #fff;
+}
+.text--20
+{
+    font-size: 1.25em;
+    line-height: 1.4;
+
+    margin-bottom: 1.5em;
+}
+.text--16
+{
+    font-size: 1em;
+    line-height: 1.4;
 }
 .screen-reader-response
 {
@@ -1473,8 +1661,10 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object
 }
 .wrap
 {
+    box-sizing: content-box;
     max-width: 77.5em;
-    margin: 0 auto;
+    margin-right: auto;
+    margin-left: auto;
 }
 .padding-page
 {

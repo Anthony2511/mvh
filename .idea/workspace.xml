@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b80ae816-0223-4bce-8d51-cb2d2d0d88cc" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stylus/components/partials/button.styl" beforeDir="false" afterPath="$PROJECT_DIR$/source/stylus/components/partials/button.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stylus/components/partials/titles.styl" beforeDir="false" afterPath="$PROJECT_DIR$/source/stylus/components/partials/titles.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stylus/main.styl" beforeDir="false" afterPath="$PROJECT_DIR$/source/stylus/main.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/stylus/settings/colors.styl" beforeDir="false" afterPath="$PROJECT_DIR$/source/stylus/settings/colors.styl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/stylus/components/home/home-chantiers.styl" beforeDir="false" afterPath="$PROJECT_DIR$/source/stylus/components/home/home-chantiers.styl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/stylus/components/partials/footer.styl" beforeDir="false" afterPath="$PROJECT_DIR$/source/stylus/components/partials/footer.styl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/mvh/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/mvh/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/mvh/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/mvh/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/mvh/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/mvh/footer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/mvh/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/mvh/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,35 +26,44 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wordpress/wp-content/themes/mvh/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="58" column="93" selection-start-line="58" selection-start-column="93" selection-end-line="58" selection-end-column="93" />
+            <state relative-caret-position="-355">
+              <caret line="43" column="30" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home-chantiers.styl" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/source/stylus/components/home/home-chantiers.styl">
+      <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wordpress/wp-content/themes/mvh/footer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="36" column="19" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
+            <state relative-caret-position="161">
+              <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home-who.styl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/stylus/components/home/home-who.styl">
+      <file leaf-file-name="footer.styl" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/source/stylus/components/partials/footer.styl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+            <state relative-caret-position="358">
+              <caret line="29" column="11" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="wrap.styl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/stylus/objects/wrap.styl">
+      <file leaf-file-name="icons.styl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/stylus/config/icons.styl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+            <state relative-caret-position="138">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.styl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/stylus/components/partials/header.styl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="5" selection-start-line="5" selection-end-line="16" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -67,15 +73,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="414">
               <caret line="38" column="22" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base.styl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/stylus/base/base.styl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="381">
-              <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -124,10 +121,8 @@
       <list>
         <option value="$PROJECT_DIR$/source/stylus/components/news/switcher-news.styl" />
         <option value="$PROJECT_DIR$/source/stylus/components/partials/breadcrumb.styl" />
-        <option value="$PROJECT_DIR$/source/stylus/components/partials/footer.styl" />
         <option value="$PROJECT_DIR$/source/stylus/components/wpcf7.styl" />
         <option value="$PROJECT_DIR$/../hf/resources/assets/stylus/settings/fonts.styl" />
-        <option value="$PROJECT_DIR$/wordpress/wp-content/themes/mvh/footer.php" />
         <option value="$PROJECT_DIR$/wordpress/wp-content/themes/mvh/head.php" />
         <option value="$PROJECT_DIR$/wordpress/wp-content/themes/mvh/style.css" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
@@ -138,7 +133,6 @@
         <option value="$PROJECT_DIR$/wordpress/wp-content/themes/mvh/template-work.php" />
         <option value="$PROJECT_DIR$/wordpress/wp-content/themes/mvh/single-work.php" />
         <option value="$PROJECT_DIR$/source/stylus/objects/wrap.styl" />
-        <option value="$PROJECT_DIR$/wordpress/wp-content/themes/mvh/navigation.php" />
         <option value="$PROJECT_DIR$/source/stylus/components/partials/navigation.styl" />
         <option value="$PROJECT_DIR$/source/stylus/components/partials/text.styl" />
         <option value="$PROJECT_DIR$/source/stylus/settings/fonts.styl" />
@@ -152,9 +146,12 @@
         <option value="$PROJECT_DIR$/source/stylus/components/partials/wysiwyg.styl" />
         <option value="$PROJECT_DIR$/source/stylus/components/home/home-who.styl" />
         <option value="$PROJECT_DIR$/source/stylus/base/base.styl" />
-        <option value="$PROJECT_DIR$/wordpress/wp-content/themes/mvh/index.php" />
         <option value="$PROJECT_DIR$/source/stylus/components/partials/titles.styl" />
+        <option value="$PROJECT_DIR$/wordpress/wp-content/themes/mvh/navigation.php" />
+        <option value="$PROJECT_DIR$/wordpress/wp-content/themes/mvh/index.php" />
         <option value="$PROJECT_DIR$/source/stylus/components/home/home-chantiers.styl" />
+        <option value="$PROJECT_DIR$/wordpress/wp-content/themes/mvh/footer.php" />
+        <option value="$PROJECT_DIR$/source/stylus/components/partials/footer.styl" />
       </list>
     </option>
   </component>
@@ -335,12 +332,12 @@
       <workItem from="1562413732268" duration="8207000" />
       <workItem from="1564044896426" duration="4677000" />
       <workItem from="1564049677912" duration="5101000" />
-      <workItem from="1565424999210" duration="2469000" />
+      <workItem from="1565424999210" duration="5301000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25637000" />
+    <option name="totallyTimeSpent" value="28469000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -351,9 +348,9 @@
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="0" />
       <window_info anchor="bottom" id="Run" order="0" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.35441658" />
+      <window_info anchor="bottom" id="Terminal" order="0" visible="true" weight="0.35441658" />
       <window_info id="Gulp" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4983108" visible="true" weight="0.26385927" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4983108" visible="true" weight="0.26385927" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="0" />
       <window_info id="Structure" order="0" side_tool="true" />
@@ -410,9 +407,6 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/source/stylus/components/news/switcher-news.styl" />
-    <entry file="file://$PROJECT_DIR$/source/stylus/components/partials/footer.styl">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/stylus/components/wpcf7.styl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
@@ -443,13 +437,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
           <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wordpress/wp-content/themes/mvh/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
@@ -553,20 +540,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/stylus/components/partials/header.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wordpress/wp-content/themes/mvh/navigation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/stylus/objects/wrap.styl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
@@ -609,24 +582,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/stylus/config/icons.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="35" lean-forward="true" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/stylus/components/partials/button.styl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
           <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/stylus/settings/colors.styl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -651,13 +610,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wordpress/wp-content/themes/mvh/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="58" column="93" selection-start-line="58" selection-start-column="93" selection-end-line="58" selection-end-column="93" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/stylus/components/partials/titles.styl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
@@ -665,10 +617,59 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/wordpress/wp-content/themes/mvh/navigation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/stylus/components/partials/header.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" selection-start-line="5" selection-end-line="16" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/stylus/settings/colors.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/source/stylus/components/home/home-chantiers.styl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="36" column="19" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
+        <state relative-caret-position="-539">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wordpress/wp-content/themes/mvh/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-355">
+          <caret line="43" column="30" selection-start-line="43" selection-start-column="30" selection-end-line="43" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/stylus/config/icons.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wordpress/wp-content/themes/mvh/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="37" selection-start-line="7" selection-start-column="37" selection-end-line="7" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/stylus/components/partials/footer.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="29" column="11" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
         </state>
       </provider>
     </entry>

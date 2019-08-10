@@ -1,0 +1,48 @@
+.footer
+  background url('../images/background-footer.jpg') no-repeat top center/cover
+  position relative
+  color $cWhite
+  &:before
+    content: ''
+    position: absolute
+    top: 0
+    left: 0
+    right: 0
+    bottom: 0
+    width: 100%
+    height 100%
+    background-color rgba($cDarkTwo, 0.9)
+    z-index: 1
+  &__container
+    position relative
+    z-index 5
+    display flex
+    justify-content space-between
+    align-items flex-start
+  &__bloc
+    font-size s(18)
+  &__li
+    margin-left s(23,18)
+  &__place
+    margin-bottom s(30)
+    & li
+      margin-bottom s(10,18)
+  &__street
+    &:before
+      icon('place')
+      font-size s(18)
+      margin-right s(10,18)
+  &__tel
+    margin-bottom s(30)
+    &:before
+      icon('phone')
+      margin-right s(10)
+  &__email
+    &:before
+      icon('envelope')
+      font-size s(13,18)
+      margin-right s(10,13)
+  &__nav-item
+    padding-bottom s(30,18)
+    &:last-child
+      padding-bottom 0

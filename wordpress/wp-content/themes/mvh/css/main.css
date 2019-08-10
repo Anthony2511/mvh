@@ -342,6 +342,8 @@ img
 }
 .home-chantiers
 {
+    padding: 3.125em 1.25em 5em;
+
     background-color: #2d3033;
 }
 .home-chantiers__bloc
@@ -591,6 +593,126 @@ img
     width: 60%;
 
     text-align: center;
+}
+.footer
+{
+    position: relative;
+
+    color: #fff;
+    background: url('../images/background-footer.jpg') no-repeat top center/cover;
+}
+.footer:before
+{
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    content: '';
+
+    background-color: rgba(48,52,55,.9);
+}
+.footer__container
+{
+    position: relative;
+    z-index: 5;
+
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display:         flex;
+
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+            align-items: flex-start;
+}
+.footer__bloc
+{
+    font-size: 1.125em;
+}
+.footer__li
+{
+    margin-left: 1.277777777777778em;
+}
+.footer__place
+{
+    margin-bottom: 1.875em;
+}
+.footer__place li
+{
+    margin-bottom: .555555555555556em;
+}
+.footer__street:before
+{
+    font-family: 'icomoon';
+    font-size: 1.125em;
+    font-weight: normal;
+    font-style: normal;
+    font-variant: normal;
+    line-height: 1;
+
+    margin-right: .555555555555556em;
+
+    content: '\e903';
+    text-transform: none;
+
+    speak: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.footer__tel
+{
+    margin-bottom: 1.875em;
+}
+.footer__tel:before
+{
+    font-family: 'icomoon';
+    font-weight: normal;
+    font-style: normal;
+    font-variant: normal;
+    line-height: 1;
+
+    margin-right: .625em;
+
+    content: '\e902';
+    text-transform: none;
+
+    speak: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.footer__email:before
+{
+    font-family: 'icomoon';
+    font-size: .722222222222222em;
+    font-weight: normal;
+    font-style: normal;
+    font-variant: normal;
+    line-height: 1;
+
+    margin-right: .769230769230769em;
+
+    content: '\e905';
+    text-transform: none;
+
+    speak: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.footer__nav-item
+{
+    padding-bottom: 1.666666666666667em;
+}
+.footer__nav-item:last-child
+{
+    padding-bottom: 0;
 }
 .button
 {

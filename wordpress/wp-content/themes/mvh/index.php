@@ -41,7 +41,7 @@ include('head.php'); ?>
         </figure>
     </div>
 </div>
-<section class="home-chantiers padding-page">
+<section class="home-chantiers">
     <div class="home-chantiers__wrapper wrap">
         <h2 class="title title--40 title__bottom-center title__center"aria-level="2"
             role="heading"><?= __('Notre dernier chantier', 'wp'); ?></h2>

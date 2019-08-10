@@ -1,0 +1,42 @@
+.home-chantiers
+  background-color $cDarkFour
+  &__bloc
+    position relative
+    display flex
+    background-color $cDarkTwo
+    top s(30)
+    left s(30)
+  &__container
+    z-index: 1
+    &:after
+      content ''
+      position absolute
+      width 9999px
+      height 100%
+      top 0
+      background-color $cDarkTwo
+  &__wrap
+    width 100%
+    &:after
+      content: '';
+      width: 50%;
+      background: 0 0;
+      height: 50px
+  &__figure
+    z-index 2
+    position relative
+    top s(-30)
+    left s(-30)
+  &__infos
+    padding-top s(30)
+    position relative
+    z-index 5
+  &__bloc-date
+    margin-bottom s(20)
+    color $cWhite
+    font-size s(18)
+  &__strong-date
+    font-weight: 700
+  &__date
+    font-weight: 400
+

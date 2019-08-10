@@ -1,16 +1,27 @@
 .button
-  font-size s(18)
-  padding s(15,18) s(30,18)
+  font-size s(16)
+  padding s(15,16) s(30,16)
   border-radius 10px
-  display flex
+  display inline-block
   cursor pointer
   &--contact
       &:before
         icon('envelope-contact')
         color $cWhite
-        margin-left s(10,18)
+        margin-left s(10,16)
+  &--more
+    &:before
+      icon('arrow')
+      color $cWhite
+      margin-left s(10,16)
+  &--chantier
+    &:before
+      icon('trowel')
+      color $cDarkTwo
+      margin-left s(10,16)
   &--red
     background-color $cRedLight
     color $cWhite
   &--white
-    background-color $cWhite
+    background-color $cLightGreyTwo
+    color $cDarkTwo

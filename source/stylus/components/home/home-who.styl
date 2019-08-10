@@ -1,0 +1,40 @@
+.home-who
+  background-color $cDarkTwo
+  position relative
+  overflow hidden
+  &__figure
+    position relative
+    height 100%
+    &:before
+      content ''
+      position absolute
+      left 0
+      width: 0;
+      height: 0;
+      border-top: 415px solid $cDarkTwo;
+      border-right: 150px solid transparent;
+    &:after
+      content ''
+      position absolute
+      left 0
+      right 0
+      bottom 0
+      top 0
+      width 100%
+      height 100%
+      background-color alpha($cDarkTwo,0.5)
+  &__img
+    width 100%
+    height 100%
+  &__right
+    position absolute
+    right 0
+    top 0
+    height 100%
+  &__left
+    display flex
+    &:after
+      content: '';
+      width: 175%;
+      background: 0 0;
+      height: 50px;

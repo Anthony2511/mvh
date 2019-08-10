@@ -3,6 +3,37 @@
   color $cWhite
   font-weight 700
   letter-spacing 1.14px
+  position relative
+  &__center
+    text-align center
+  &__bottom-left
+    &:after
+      content ''
+      position absolute
+      bottom -5px
+      left 0
+      background-color $cRedLight
+      width s(30)
+      height s(2,40)
+      display block
+  &__bottom-center
+    &:after
+      content ''
+      position absolute
+      bottom -5px
+      left 0
+      right 0
+      margin 0 auto
+      background-color $cRedLight
+      width s(30)
+      height s(2,40)
+      display block
   &--50
     font-size s(50)
     margin-bottom s(30,50)
+  &--40
+    font-size s(40)
+    margin-bottom s(30,40)
+  &--25
+    font-size s(25)
+    margin-bottom s(25,25)

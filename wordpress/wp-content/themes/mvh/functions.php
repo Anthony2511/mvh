@@ -3,6 +3,7 @@
 add_theme_support('post-thumbnails');
 
 add_image_size('home-who', 622);
+add_image_size('works-card', 527, 342);
 
 
 // Define shortcut path

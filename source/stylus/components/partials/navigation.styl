@@ -1,6 +1,6 @@
 .nav
   position absolute
-  top s(50)
+  top s(30)
   left 0
   right 0
   bottom 0
@@ -11,7 +11,7 @@
     display flex
     flex-flow row nowrap
     justify-content space-between
-    align-items center
+    align-items flex-start
   &__wrapper
     position relative
   &__item
@@ -23,3 +23,5 @@
     color $cWhite
     font-size s(18)
     line-height s(32,18)
+  &__logo
+    width s(100)

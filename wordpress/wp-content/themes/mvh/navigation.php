@@ -14,7 +14,7 @@
         <a href="<?= get_home_url(); ?>">
             <figure>
                 <img src="<?= $images . '/../../images/logo-mvh.png'; ?>"
-                     srcset="<?= $images . '/../../images/logo-mvh@2x.png 2x'; ?>" width="150" height="160" alt="">
+                     srcset="<?= $images . '/../../images/logo-mvh@2x.png 2x'; ?>" width="150" height="160" alt="" class="nav__logo">
             </figure>
         </a>
         <ul class="nav__menu <?php if (!is_front_page() && !is_home()): ?> menu-page<?php else: ?><?php endif; ?>">

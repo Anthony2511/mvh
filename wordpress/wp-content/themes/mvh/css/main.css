@@ -417,11 +417,19 @@ img
 {
     font-weight: 400;
 }
+.builder
+{
+    height: 100vh;
+}
+.builder__background
+{
+    background-color: #303437;
+}
 .nav
 {
     position: absolute;
     z-index: 2;
-    top: 3.125em;
+    top: 1.875em;
     right: 0;
     bottom: 0;
     left: 0;
@@ -441,9 +449,9 @@ img
     -webkit-justify-content: space-between;
     -ms-flex-pack: justify;
             justify-content: space-between;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-            align-items: center;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+            align-items: flex-start;
 }
 .nav__wrapper
 {
@@ -465,6 +473,10 @@ img
     line-height: 1.777777777777778em;
 
     color: #fff;
+}
+.nav__logo
+{
+    width: 6.25em;
 }
 .title
 {
@@ -593,6 +605,13 @@ img
     width: 60%;
 
     text-align: center;
+}
+.header-two
+{
+    height: 5.5625em;
+
+    border-bottom: 1px solid #911211;
+    background-color: #231f20;
 }
 .footer
 {

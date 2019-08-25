@@ -11,6 +11,8 @@ include( 'head.php' ); ?>
 <?php get_header(); ?>
 <?php include( 'navigation.php' ); ?>
 
-<div class="wrap"></div>
+<div class="wrap">
+    <p>SLTTT</p>
+</div>
 
 <?php include('footer.php'); ?>

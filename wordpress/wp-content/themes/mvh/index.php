@@ -43,33 +43,51 @@ include('head.php'); ?>
 </div>
 <section class="home-chantiers">
     <div class="home-chantiers__wrapper wrap">
-        <h2 class="title title--40 title__bottom-center title__center"aria-level="2"
+        <h2 class="title title--40 title__bottom-center title__center" aria-level="2"
             role="heading"><?= __('Notre dernier chantier', 'wp'); ?></h2>
-        <section class="home-chantiers__bloc wrap">
-            <div class="home-chantiers__wrap">
-                <figure class="home-chantiers__figure">
-                    <img src="<?= $images . 'bloc-img.jpg'; ?>" alt="">
-                </figure>
-            </div>
-            <div class="home-chantiers__container">
-                <div class="home-chantiers__infos">
-                    <h3 aria-level="3" role="heading" class="title title--25 title__bottom-left">Rénovation de façades</h3>
-                    <div class="home-chantiers__bloc-date">
-                        <span class="home-chantiers__strong-date">Réalisation :&nbsp;</span>
-                        <time datetime="" class="home-chantiers__date">Avril 2016 - Juin 2017</time>
-                    </div>
-                    <div class="wysiwyg">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Nunc sed mi non ante tincidunt accumsan. Sed varius malesuada imperdiet.
-                        Phasellus rhoncus vitae ex ac elementum. Vivamus leo augue, eleifend et rutrum non, pretium at velit.
-                    </div>
-                    <a href="<?php the_permalink(14); ?>" class="button button--white" title="Vers la page du chantier : Rénovation de façades">
-                        <span><?= __('Voir le chantier', 'wp'); ?></span>
-                        <i class="button--chantier"></i>
-                    </a>
+
+        <?php $posts = new WP_Query([
+            'posts_per_page' => 1,
+            'post_type' => 'works',
+            'orderby' => 'post-date',
+            'order' => 'ASC'
+        ]); ?>
+
+        <?php if ($posts->have_posts()) : while ($posts->have_posts()): $posts->the_post(); ?>
+            <div class="home-chantiers__bloc wrap" id="post-<?php the_ID(); ?>">
+                <div class="home-chantiers__wrap">
+                    <?php $homeWorks = get_field('img-presentation'); ?>
+                    <figure class="home-chantiers__figure">
+                        <?php if (!empty($homeWorks)): ?>
+                            <?php $size = 'works-card';
+                            $thumb = $homeWorks['sizes'][$size]; ?>
+                            <img src="<?= $thumb; ?>" alt="<?= $homeNews['alt']; ?>" width="527" height="342">
+                        <?php endif; ?>
+                    </figure>
+                </div>
+                <div class="home-chantiers__container">
+                    <section class="home-chantiers__infos">
+                        <h3 aria-level="3" role="heading" class="title title--25 title__bottom-left">
+                            <?= the_title(); ?>
+                        </h3>
+                        <div class="home-chantiers__bloc-date">
+                            <span class="home-chantiers__strong-date">Réalisation :&nbsp;</span>
+                            <time datetime="" class="home-chantiers__date"><?= ucfirst(get_field('date-start')); ?>
+                                - <?= ucfirst(get_field('date-end')); ?></time>
+                        </div>
+                        <div class="wysiwyg">
+                            <?= wp_trim_words(get_field('description-work'), 25, '...'); ?>
+                        </div>
+                        <a href="<?php the_permalink(); ?>" class="button button--white"
+                           title="Vers la page du chantier : <?= the_title(); ?>">
+                            <span><?= __('Voir le chantier', 'wp'); ?></span>
+                            <i class="button--chantier"></i>
+                        </a>
+                    </section>
                 </div>
             </div>
-        </section>
+            <?php wp_reset_postdata(); ?>
+        <?php endwhile; endif; ?>
     </div>
 </section>
 

@@ -181,6 +181,10 @@ img
 {
     display: none;
 }
+.padding-page
+{
+    padding: 3.125em 1.25em;
+}
 @font-face
 {
     font-family: 'icomoon';
@@ -425,13 +429,111 @@ img
 {
     background-color: #303437;
 }
+.ui-datepicker[style]
+{
+    z-index: 999999 !important;
+}
+.contact-page__container
+{
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display:         flex;
+            flex-direction: row;
+
+    width: 100%;
+    margin: 3.125em 0;
+
+    color: #fff;
+    background-color: #231f20;
+
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+.contact-page__bloc
+{
+    padding: 3.125em;
+}
+.contact-page__bloc--left
+{
+    width: 45%;
+
+    background-color: #2d3033;
+}
+.contact-page__bloc--right
+{
+    width: 55%;
+}
+.contact-page__logo
+{
+    margin-bottom: 3.125em;
+}
+.contact-page__form-champ
+{
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display:         flex;
+            flex-direction: column;
+
+    margin-bottom: 1.875em;
+
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+}
+.contact-page__form-champ:last-child
+{
+    margin-bottom: 0;
+}
+.contact-page__form-required
+{
+    font-weight: 300;
+    font-style: italic;
+
+    margin-bottom: 1.875em;
+}
+.contact-page__form-required span
+{
+    color: #ad1f1d;
+}
+.contact-page__form-label
+{
+    font-weight: 600;
+
+    margin-bottom: .625em;
+}
+.contact-page__form-label span
+{
+    color: #ad1f1d;
+}
+.contact-page__form-input
+{
+    padding: .9375em .625em;
+
+    transition: .3s ease-in-out;
+
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background-color: #f3f3f3;
+}
+.contact-page__form-input:hover,
+.contact-page__form-input:focus
+{
+    transition: .3s ease-in-out;
+
+    border: 1px solid #ad1f1d;
+}
+.textarea
+{
+    resize: none;
+}
 .nav
 {
     position: absolute;
     z-index: 2;
     top: 1.875em;
     right: 0;
-    bottom: 0;
     left: 0;
 
     max-width: 77.5em;
@@ -469,8 +571,8 @@ img
 }
 .nav__link
 {
-    font-size: 1.125em;
-    line-height: 1.777777777777778em;
+    font-size: 1em;
+    line-height: 2em;
 
     color: #fff;
 }
@@ -743,6 +845,7 @@ img
 
     cursor: pointer;
 
+    border: none;
     border-radius: 10px;
 }
 .button--contact:before
@@ -839,6 +942,12 @@ img
     margin-bottom: 2.142857142857143em;
 
     color: #fff;
+}
+.wysiwyg strong
+{
+    font-weight: 700;
+
+    color: #f00;
 }
 .screen-reader-response
 {

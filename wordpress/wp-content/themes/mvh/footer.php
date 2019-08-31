@@ -19,9 +19,9 @@
                 $thePostID = $post->ID; ?>
                 <?php foreach (b_get_menu_items('main-nav') as $navItem): ?>
                     <li class="footer__nav-item">
-                        <a class="" href="<?= $navItem->url; ?>"
+                        <a class="span-home" href="<?= $navItem->url; ?>"
                            title="Vers la page <?php echo $navItem->label; ?>"><span
-                                    class="nav__span <?php echo $thePostID == $navItem->id ? "nav__span--active" : ""; ?>"><?php echo $navItem->label; ?></span></a>
+                                    class="nav__span"><?php echo $navItem->label; ?></span></a>
                     </li>
                 <?php endforeach; ?>
             </ul>

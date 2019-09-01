@@ -63,6 +63,10 @@ include('head.php'); ?>
                             $thumb = $homeWorks['sizes'][$size]; ?>
                             <img src="<?= $thumb; ?>" alt="<?= $homeNews['alt']; ?>" width="527" height="342">
                         <?php endif; ?>
+                        <?php $worksID = $post->ID; ?>
+                        <?php if ( wp_get_taxonomies( $worksID, 'category' ) ): ?>
+                            <span class="home-chantiers__category"><?= wp_get_taxonomies( $worksID, 'category' ); ?></span>
+                        <?php endif; ?>
                     </figure>
                 </div>
                 <div class="home-chantiers__container">
@@ -85,9 +89,16 @@ include('head.php'); ?>
                         </a>
                     </section>
                 </div>
+                <a href="<?php the_permalink(); ?>" class="home-chantiers__link">
+                    <span class="hidden"><?= __('Voir le chantier', 'wp'); ?></span>
+                </a>
             </div>
             <?php wp_reset_postdata(); ?>
         <?php endwhile; endif; ?>
+        <a href="<?php the_permalink(20); ?>" class="button button--red home-chantiers__button" title="Vers la page : Chantiers">
+            <span><?= __('Voir tous les chantiers', 'wp'); ?></span>
+            <i class="button--more"></i>
+        </a>
     </div>
 </section>
 

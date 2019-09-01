@@ -1,12 +1,18 @@
 .home-chantiers
   background-color $cDarkFour
-  padding s(50) s(20) s(80)
+  padding s(50) s(20)
   &__bloc
     position relative
     display flex
     background-color $cDarkTwo
     top s(30)
     left s(30)
+  &__wrapper
+    display flex
+    flex-direction column
+    position relative
+  &__button
+    margin s(80) auto 0
   &__container
     z-index: 1
     &:after
@@ -28,6 +34,8 @@
     position relative
     top s(-30)
     left s(-30)
+    & img
+      width 100%
   &__infos
     padding-top s(30)
     position relative
@@ -40,4 +48,22 @@
     font-weight: 700
   &__date
     font-weight: 400
+  &__link
+    position absolute
+    width 100%
+    height 100%
+    top: 0
+    bottom 0
+    left 0
+    right 0
+    z-index 50
+  &__category
+    position absolute
+    top 0
+    color $cWhite
+    background-color $cRedLight
+    padding s(10) s(20)
+    border-radius 0 0 5px 0
+    font-style italic
+    font-weight: 300
 

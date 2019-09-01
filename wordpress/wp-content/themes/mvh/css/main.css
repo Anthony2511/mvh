@@ -346,7 +346,7 @@ img
 }
 .home-chantiers
 {
-    padding: 3.125em 1.25em 5em;
+    padding: 3.125em 1.25em;
 
     background-color: #2d3033;
 }
@@ -361,6 +361,22 @@ img
     display:         flex;
 
     background-color: #303437;
+}
+.home-chantiers__wrapper
+{
+    position: relative;
+
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display:         flex;
+            flex-direction: column;
+
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+}
+.home-chantiers__button
+{
+    margin: 5em auto 0;
 }
 .home-chantiers__container
 {
@@ -398,6 +414,10 @@ img
     top: -1.875em;
     left: -1.875em;
 }
+.home-chantiers__figure img
+{
+    width: 100%;
+}
 .home-chantiers__infos
 {
     position: relative;
@@ -420,6 +440,32 @@ img
 .home-chantiers__date
 {
     font-weight: 400;
+}
+.home-chantiers__link
+{
+    position: absolute;
+    z-index: 50;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+}
+.home-chantiers__category
+{
+    font-weight: 300;
+    font-style: italic;
+
+    position: absolute;
+    top: 0;
+
+    padding: .625em 1.25em;
+
+    color: #fff;
+    border-radius: 0 0 5px 0;
+    background-color: #ad1f1d;
 }
 .builder
 {
@@ -528,6 +574,72 @@ img
 .textarea
 {
     resize: none;
+}
+.works-page__wrap
+{
+    position: relative;
+
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display:         flex;
+
+    width: 100%;
+    margin-bottom: 3.125em;
+
+    -webkit-flex-flow: row nowrap;
+        -ms-flex-flow: row nowrap;
+            flex-flow: row nowrap;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+.works-page__wrap:nth-child(even)
+{
+    -webkit-flex-flow: row-reverse nowrap;
+        -ms-flex-flow: row-reverse nowrap;
+            flex-flow: row-reverse nowrap;
+}
+.works-page__wrap:nth-child(even) .home-chantiers__category
+{
+    font-weight: 300;
+    font-style: italic;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    padding: .625em 1.25em;
+
+    color: #fff;
+    border-radius: 0 0 0 5px;
+    background-color: #ad1f1d;
+}
+.works-page__container
+{
+    margin-top: 3.125em;
+}
+.works-page__figure
+{
+    position: relative;
+
+    width: 45%;
+}
+.works-page__figure img
+{
+    width: 100%;
+}
+.works-page__bloc
+{
+    width: 55%;
+    padding: 1.875em;
+
+    background-color: #2d3033;
+}
+.works-page__infos
+{
+    margin-bottom: 1.25em;
+
+    color: #fff;
 }
 .nav
 {

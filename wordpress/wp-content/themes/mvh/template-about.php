@@ -15,7 +15,9 @@ include('head.php'); ?>
         <h2 class="title title--40 title__bottom-center title__center" aria-level="2" role="heading">
             <?= __('A Propos de nous', 'wp'); ?>
         </h2>
-
+        <div class="construction__container">
+            <p class="construction__text">PAGE EN CONSTRUCTION</p>
+        </div>
     </div>
 </div>
 

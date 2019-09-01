@@ -467,6 +467,31 @@ img
     border-radius: 0 0 5px 0;
     background-color: #ad1f1d;
 }
+.construction__container
+{
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display:         flex;
+            flex-direction: row;
+
+    height: 80%;
+
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+            align-items: center;
+}
+.construction__text
+{
+    font-size: 2.5em;
+    font-weight: 800;
+
+    color: #fff;
+}
 .builder
 {
     height: 100vh;

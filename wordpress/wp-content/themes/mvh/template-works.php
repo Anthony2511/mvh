@@ -20,8 +20,9 @@ include('head.php'); ?>
         <?php $posts = new WP_Query([
             'posts_per_page' => -1,
             'post_type' => 'works',
-            'orderby' => 'post-date',
-            'order' => 'ASC'
+            'meta_key'			=> 'date-start',
+            'orderby'			=> 'meta_value',
+            'order'				=> 'DESC'
         ]); ?>
         <div class="wrap works-page__container">
             <?php if ($posts->have_posts()) : while ($posts->have_posts()):

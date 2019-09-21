@@ -1,0 +1,45 @@
+.single-works
+  display flex
+  margin-top s(50)
+  &__content
+    margin-top s(50)
+  &__wysiwyg
+    column-count 2
+    column-gap s(30)
+  &__gallery-bloc
+    display flex
+    justify-content space-between
+    flex-wrap wrap
+  &__gallery-link
+    width 25%
+    margin-bottom s(30)
+    & img
+      height s(204)
+      width auto
+  &__empty
+    color $cWhite
+    font-style italic
+    font-weight: 400
+
+.single-work
+  padding-bottom s(20) !important
+
+  .breadcrumb
+    margin s(30) 0
+    display inline-block
+    &:hover
+      & .breadcrumb__span
+        &:before
+          color $cRedLight
+          transition 300ms ease-in-out
+          transform rotate(180deg) translateX(5px)
+    &__span
+      color $cWhite
+      &:before
+        icon('arrow')
+        display inline-block
+        color $cWhite
+        transform rotate(180deg) translateX(0)
+        font-size s(12)
+        margin-right s(10, 12)
+        transition 300ms ease-in-out

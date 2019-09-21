@@ -187,6 +187,15 @@ img
 }
 @font-face
 {
+    font-family: 'lg';
+    font-weight: normal;
+    font-style: normal;
+
+    src: url('../fonts/lg/lg.eot?n1z373');
+    src: url('../fonts/lg/lg.eot?#iefixn1z373') format('embedded-opentype'), url('../fonts/lg/lg.woff?n1z373') format('woff'), url('../fonts/lg/lg.ttf?n1z373') format('truetype'), url('../fonts/lg/lg.svg?n1z373#lg') format('svg');
+}
+@font-face
+{
     font-family: 'icomoon';
     font-weight: normal;
     font-style: normal;
@@ -460,6 +469,7 @@ img
 
     position: absolute;
     top: 0;
+    left: 0;
 
     padding: .625em 1.25em;
 
@@ -632,6 +642,7 @@ img
     position: absolute;
     top: 0;
     right: 0;
+    left: auto;
 
     padding: .625em 1.25em;
 
@@ -665,6 +676,104 @@ img
     margin-bottom: 1.25em;
 
     color: #fff;
+}
+.single-works
+{
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display:         flex;
+
+    margin-top: 3.125em;
+}
+.single-works__content
+{
+    margin-top: 3.125em;
+}
+.single-works__wysiwyg
+{
+    -webkit-column-count: 2;
+            column-count: 2;
+    -webkit-column-gap: 1.875em;
+            column-gap: 1.875em;
+}
+.single-works__gallery-bloc
+{
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display:         flex;
+
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+}
+.single-works__gallery-link
+{
+    width: 25%;
+    margin-bottom: 1.875em;
+}
+.single-works__gallery-link img
+{
+    width: auto;
+    height: 12.75em;
+}
+.single-works__empty
+{
+    font-weight: 400;
+    font-style: italic;
+
+    color: #fff;
+}
+.single-work
+{
+    padding-bottom: 1.25em !important;
+}
+.single-work .breadcrumb
+{
+    display: inline-block;
+
+    margin: 1.875em 0;
+}
+.single-work .breadcrumb:hover .breadcrumb__span:before
+{
+    transition: 300ms ease-in-out;
+    -webkit-transform: rotate(180deg) translateX(5px);
+        -ms-transform: rotate(180deg) translateX(5px);
+            transform: rotate(180deg) translateX(5px);
+
+    color: #ad1f1d;
+}
+.single-work .breadcrumb__span
+{
+    color: #fff;
+}
+.single-work .breadcrumb__span:before
+{
+    font-family: 'icomoon';
+    font-size: .75em;
+    font-weight: normal;
+    font-style: normal;
+    font-variant: normal;
+    line-height: 1;
+
+    display: inline-block;
+
+    margin-right: .833333333333333em;
+
+    content: '\e900';
+    transition: 300ms ease-in-out;
+    -webkit-transform: rotate(180deg) translateX(0);
+        -ms-transform: rotate(180deg) translateX(0);
+            transform: rotate(180deg) translateX(0);
+    text-transform: none;
+
+    color: #fff;
+
+    speak: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 .nav
 {
@@ -1195,15 +1304,9 @@ img
     top: -99999px;
     left: -99999px;
 }
-@font-face
-{
-    font-family: 'lg';
-    font-weight: normal;
-    font-style: normal;
-
-    src: url('../fonts/lg/lg.eot?n1z373');
-    src: url('../fonts/lg/lg.eot?#iefixn1z373') format('embedded-opentype'), url('../fonts/lg/lg.woff?n1z373') format('woff'), url('../fonts/lg/lg.ttf?n1z373') format('truetype'), url('../fonts/lg/lg.svg?n1z373#lg') format('svg');
-}
+/* lightgallery - v1.6.12 - 2019-02-19
+* http://sachinchoolur.github.io/lightGallery/
+* Copyright (c) 2019 Sachin N; Licensed GPLv3 */
 .lg-icon
 {
     font-family: 'lg';
@@ -1618,6 +1721,12 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object
     margin-left: -42px;
 
     cursor: pointer;
+}
+.lg-outer .lg-has-iframe .lg-video
+{
+    overflow: auto;
+
+    -webkit-overflow-scrolling: touch;
 }
 .lg-outer .lg-has-vimeo .lg-video-play
 {
@@ -2142,7 +2251,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object
 {
     display: none !important;
 
-    background: url('../images/loading.gif') no-repeat scroll center center transparent;
+    background: url('../img/loading.gif') no-repeat scroll center center transparent;
 }
 .lg-outer.lg-css3 .lg-prev-slide,
 .lg-outer.lg-css3 .lg-current,

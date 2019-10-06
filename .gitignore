@@ -21,9 +21,9 @@ Homestead.yaml
 
 /npm-debug.log
 /-$
-wp-content/themes/teff/node_modules/
+wp-content/themes/mvh/node_modules/
 
-!wp-content/themes/teff/public/
+!wp-content/themes/mvh/public/
 
 .idea
 bit

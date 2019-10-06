@@ -1,6 +1,38 @@
 .builder
-  height 100vh
   &__background
     background-color $cDarkTwo
+    padding-top s(50)
+  &__bloc
+    margin-top s(30)
+  &__img-text
+    display flex
+    flex-direction row
+    justify-content space-between
+    & figure
+      width 35%
+      & img
+        width 100%
+    & .wysiwyg
+      width 60%
+  &__col
+    display flex
+    flex-flow row nowrap
+    justify-content space-between
+  &__col-2
+    width 47.5%
+  &__col-3
+    width 30%
+  &__col-4
+    width 21.25%
+  &__img
+    & figure img
+      width 100%
+  &__background-content
+    background-color $cDarkThree
+    padding s(50) 0
+  &__col-2-count
+    column-count 2
 
-.ui-datepicker[style] { z-index: 999999 !important }
+.ui-datepicker[style] {
+  z-index: 999999 !important
+}
